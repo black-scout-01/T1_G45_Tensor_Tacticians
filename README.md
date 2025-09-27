@@ -58,7 +58,8 @@ graph TD
     style J fill:#1e293b,stroke:#64748b,stroke-width:2px,color:#ffffff
     style K fill:#155e63,stroke:#22d3ee,stroke-width:2px,color:#ffffff
     style L fill:#047857,stroke:#059669,stroke-width:3px,color:#ffffff
-
+```
+```mermaid
 
     graph LR
     A[Raw Neural Data] --> B[Temporal Window<br/>Segmentation<br/>1-5s]
