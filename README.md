@@ -78,7 +78,7 @@ graph TD
     style E fill:#1e293b,stroke:#10b981,stroke-width:2px,color:#ffffff
     style F fill:#1e293b,stroke:#10b981,stroke-width:2px,color:#ffffff
     style G fill:#047857,stroke:#6ee7b7,stroke-width:3px,color:#ffffff
-
+```
     sentiment-recognition/
 ├── data/
 │   ├── EEG.csv              # Neural brainwave attributes
