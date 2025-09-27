@@ -81,11 +81,11 @@ graph TD
     style G fill:#047857,stroke:#6ee7b7,stroke-width:3px,color:#ffffff
 ```
     sentiment-recognition/
-├── data/
-│   ├── EEG.csv              # Neural brainwave attributes
-│   └── TIVA.csv             # Facial expression dataset
-├── notebooks/
-│   ├── 01_preprocessing.ipynb        # Data preparation & processing
-│   ├── 02_feature_engineering.ipynb  # Feature ranking & selection
-│   └── 03_modeling_baseline.ipynb    # XGBoost framework
-└── README.md
+├── data/  
+│   ├── EEG.csv              # Neural brainwave attributes  
+│   └── TIVA.csv             # Facial expression dataset  
+├── notebooks/  
+│   ├── 01_preprocessing.ipynb        # Data preparation & processing  
+│   ├── 02_feature_engineering.ipynb  # Feature ranking & selection  
+│   └── 03_modeling_baseline.ipynb    # XGBoost framework  
+└── README.md  
