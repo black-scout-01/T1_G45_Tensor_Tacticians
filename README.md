@@ -31,20 +31,20 @@ graph TD
     A[Neural Signals] --> D[Feature Extraction]
     B[Facial Micro-expressions<br/>Affectiva] --> D
     C[TIVA Dataset] --> D
-
+    
     D --> E[Variance Filtering]
     E --> F[Correlation<br/>Elimination]
     F --> G[XGBoost Feature<br/>Ranking Top 45]
-
+    
     G --> H[Class Distribution<br/>Balancing]
     H --> I[SMOTE Generation]
     H --> J[Weight Adjustment]
-
+    
     I --> K[XGBoost Model]
     J --> K
-
+    
     K --> L[Sentiment Detection<br/>93% Performance]
-
+    
     %% Styling
     style A fill:#4c1d95,stroke:#8b5cf6,stroke-width:2px,color:#ffffff
     style B fill:#991b1b,stroke:#ef4444,stroke-width:2px,color:#ffffff
